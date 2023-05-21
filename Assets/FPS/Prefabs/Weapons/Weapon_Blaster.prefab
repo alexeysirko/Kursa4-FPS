@@ -197,8 +197,8 @@ MonoBehaviour:
   DelayBetweenShots: 0.3
   BulletSpreadAngle: 0.2
   BulletsPerShot: 1
-  RecoilForce: 1.706
-  AimZoomRatio: 0.245
+  RecoilForce: 1.006
+  AimZoomRatio: 0.503
   AimOffset: {x: 0, y: 0.075, z: 0}
   AutomaticReload: 1
   HasPhysicalBullets: 0
