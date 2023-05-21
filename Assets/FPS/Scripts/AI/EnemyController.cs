@@ -159,7 +159,6 @@ namespace Unity.FPS.AI
                 this, gameObject);
             // Initialize detection module
             DetectionModule = detectionModules[0];
-            DetectionModule.DetectionRange = DetectionRange;
             DetectionModule.onDetectedTarget += OnDetectedTarget;
             DetectionModule.onLostTarget += OnLostTarget;
             onAttack += DetectionModule.OnAttack;
