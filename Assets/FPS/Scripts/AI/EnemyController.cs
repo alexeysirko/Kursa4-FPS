@@ -35,6 +35,9 @@ namespace Unity.FPS.AI
         [Tooltip("Delay after death where the GameObject is destroyed (to allow for animation)")]
         public float DeathDuration = 0f;
 
+        [Tooltip("Enemy detection range")]
+        public float DetectionRange = 20f;
+
 
         [Header("Weapons Parameters")] [Tooltip("Allow weapon swapping for this enemy")]
         public bool SwapToNextWeapon = false;
@@ -156,6 +159,7 @@ namespace Unity.FPS.AI
                 this, gameObject);
             // Initialize detection module
             DetectionModule = detectionModules[0];
+            DetectionModule.DetectionRange = DetectionRange;
             DetectionModule.onDetectedTarget += OnDetectedTarget;
             DetectionModule.onLostTarget += OnLostTarget;
             onAttack += DetectionModule.OnAttack;
