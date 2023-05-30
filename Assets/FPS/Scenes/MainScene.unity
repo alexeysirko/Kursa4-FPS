@@ -25546,8 +25546,8 @@ PrefabInstance:
     - target: {fileID: 2210585487228328151, guid: a5e57422b1d4cd7418d7bd6037f5a604,
         type: 3}
       propertyPath: Title
-      value: "\u041F\u043E\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u043B\u0435\u0433\u0435\u043D\u0434\u0430\u0440\u043D\u044B\u0439
-        \u0414\u0420\u041E\u0411\u041E\u0412\u0418\u041A"
+      value: "\u041F\u043E\u0434\u0431\u0435\u0440\u0438\u0442\u0435 \u043B\u0435\u0433\u0435\u043Dd\u0430\u0440\u043D\u044B\u0438
+        D\u0420\u041E\u0411\u041E\u0412\u0418\u041A"
       objectReference: {fileID: 0}
     - target: {fileID: 2210585487228328151, guid: a5e57422b1d4cd7418d7bd6037f5a604,
         type: 3}
